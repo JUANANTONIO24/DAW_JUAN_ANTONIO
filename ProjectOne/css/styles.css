@@ -1,4 +1,6 @@
-.features .fas{
+body{
+  padding-top: 70px;
+  }.features .fas{
   font-size : 32px;
   color: blue;
 }
