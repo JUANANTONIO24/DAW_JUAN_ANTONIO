@@ -60,14 +60,31 @@
       </div>
     </div>
     <div class="row">
-      <div class="carousel slide" id="carousel-product" data-ride="carousel">
+      <div class="carousel slide" id="carousel-product" data-ride="carousel" >
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-product" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-product" data-slide-to="1"></li>
+          <li data-target="#carousel-product" data-slide-to="2"></li>
+        </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/large1.jpg" alt="" class="d-block w-100"></div>
+              <img src="img/large1.jpg" alt="" class="d-block w-100">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Picture One</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, dolorum?</p>
+              </div></div>
             <div class="carousel-item">
-              <img src="img/large2.jpg" alt="" class="d-block w-100"></div>
+              <img src="img/large2.jpg" alt="" class="d-block w-100">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Picture Two</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, dolorum?</p>
+              </div></div>
             <div class="carousel-item">
-              <img src="img/large3.jpg" alt="" class="d-block w-100"></div>
+              <img src="img/large3.jpg" alt="" class="d-block w-100">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Picture Three</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, dolorum?</p>
+              </div></div>
             </div>
             <a href="#carousel-product"
             class="carousel-control-prev"
@@ -82,7 +99,34 @@
               <span class="carousel-control-next-icon"></span>
             </a>
           </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Product</h3>
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique porro illum vero,
+            asperiores hic. Adipisci, cupiditate? Necessitatibus sed reiciendis illo voluptatum aut quisquam alias sunt magni,
+            architecto. Magni, neque amet consequatur? Sunt iure, labore? Vel nobis dolor, praesentium ipsum laudantium.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Product Testimonials</h3>
+          <blockquote class="blockquote text-justify">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quaerat
+              laboriosam beatae, maiores facilis in.</p>
+              <footer class="blockquote-footer">Juan Antonio Trujillo Vazquez</footer>
+          </blockquote>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div>
+          <button class="btn btn-outline-primary">
+            Previus product
+          </button>
+          <button class="btn btn-outline-primary" float-right>
+            Next product
+          </button>
 
+        </div>
       </div>
     </div>
   </div>
